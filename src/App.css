@@ -1,0 +1,11 @@
+
+.animation {
+  -webkit-animation: fading 5s infinite;
+  animation: fading 5s infinite;
+}
+
+/* Here is the animation (keyframes) */
+@keyframes fading {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
